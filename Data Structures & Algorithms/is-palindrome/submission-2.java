@@ -12,7 +12,7 @@ class Solution {
 
         //length 28 
         for (int i = 0; i < newS.length(); i++) {
-            if ((newS.charAt(i) >= 'a' && newS.charAt(i) <= 'z') ||                 (newS.charAt(i) >= '0' && newS.charAt(i) <= '9')){
+            if ((newS.charAt(i) >= 'a' && newS.charAt(i) <= 'z') || (newS.charAt(i) >= '0' && newS.charAt(i) <= '9')){
                 list.add(newS.charAt(i));
             }
         }
